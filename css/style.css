@@ -1,0 +1,35 @@
+:root {
+    --white-color: #FFFFFF;
+    --gray-color: #E0E0E0;
+    --black-color: #000001;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    background: url("../img/bgc.jpg");
+}
+
+.menu-item-link {
+    color: var(--white-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.menu-item-link:hover {
+    color: var(--gray-color);
+}
+
+.footer-social-link svg {
+    fill: var(--gray-color);
+    height: 25px;
+    width: 35px;
+}
+
+.footer-social-link:hover svg {
+    fill: var(--black-color);
+}
